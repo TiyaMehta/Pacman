@@ -302,7 +302,7 @@ public class Model extends JPanel implements ActionListener {
         for (y = 0; y < SCREEN_SIZE; y += BLOCK_SIZE) {
             for (x = 0; x < SCREEN_SIZE; x += BLOCK_SIZE) {
 
-                g2d.setColor(new Color(0,72,251)); //block color
+                g2d.setColor(new Color(0,72,251)); //block color defined
                 g2d.setStroke(new BasicStroke(5));
                 
                 if ((levelData[i] == 0)) { 
@@ -448,4 +448,4 @@ public class Model extends JPanel implements ActionListener {
         repaint();
     }
 		
-	}
+}
