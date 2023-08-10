@@ -68,7 +68,6 @@ public class Model extends JPanel implements ActionListener {
         initGame();
     }
     
-    
     private void loadImages() {
     	down = new ImageIcon("C:/Users/Admin/eclipse-workspace/Pacman/images/down.gif").getImage();
     	up = new ImageIcon("C:/Users/Admin/eclipse-workspace/Pacman/images/up.gif").getImage();
